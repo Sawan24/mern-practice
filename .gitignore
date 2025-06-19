@@ -1,0 +1,53 @@
+# Logs
+**/logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Node modules
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/build/
+frontend/dist/
+
+# dotenv files
+**/.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore MongoDB data (if using local DB dumps)
+dump/
+data/
+
+# Optional: Next.js or Vite cache (if ever used)
+.next/
+frontend/.next/
+frontend/.turbo/
+frontend/.cache/
+
+# Optional: coverage reports
+coverage/
+**/coverage/
+
+# Optional: log files
+*.log
+
+# npm logs
+npm-debug.log*
+
+# yarn logs
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: Windows system files
+ehthumbs.db
+Desktop.ini
